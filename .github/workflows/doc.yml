@@ -24,3 +24,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTION_SECRET }}
           publish_dir: docs/.vitepress/dist
+          branch: gh-pages
