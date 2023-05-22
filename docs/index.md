@@ -12,7 +12,7 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: 点击开始变强
+      text: 点击开始变强66
       link: /frontend/javascript
     - theme: alt
       text: 访问我的GitHub
