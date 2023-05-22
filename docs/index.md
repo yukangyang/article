@@ -6,7 +6,7 @@ title: 首页
 hero:
   name: Process
   text: 前端好好玩1
-  tagline: 前端知识大全前端知识大全前端知识大全23
+  tagline: 前端知识大全前端知识大全前端知识大全234
   image:
     src: /pure-logo.png
     alt: logo
