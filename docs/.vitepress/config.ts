@@ -19,7 +19,7 @@ const config = {
       {
         text: "框架",
         items: [
-          { text: "vue", link: "/vue/keep-alive" },
+          { text: "vue", link: "/vue/next-tick" },
           { text: "react", link: "/react/fiber" },
         ],
       },
