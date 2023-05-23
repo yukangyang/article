@@ -1,3 +1,1 @@
-# yukangyang.github.io
-
-# powered by process1024
+powered by [process1024](https://github.com/process1024)
