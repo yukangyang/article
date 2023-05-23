@@ -19,7 +19,7 @@ const config = {
       {
         text: "框架",
         items: [
-          { text: "vue", link: "/vue/next-tick" },
+          { text: "vue", link: "/vue/keep-alive" },
           { text: "react", link: "/react/fiber" },
         ],
       },
@@ -76,10 +76,6 @@ const config = {
           isGroup: true,
           text: "vue",
           items: [
-            {
-              text: "nextTick",
-              link: "/vue/next-tick",
-            },
             {
               text: "keep-alive",
               link: "/vue/keep-alive",
