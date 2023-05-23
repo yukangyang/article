@@ -1,8 +1,8 @@
 <template>
   <h1>关于我</h1>
-  <p>hi, 我是Process1024，一名前端开发工程师，目前在厦门工作。</p>
+  <p>hi, 我是yukangyang，一名前端开发。</p>
   <p>
-    五年前端开发经验，擅长前端领域的各种技术，包括但不限于vue/react/typescript/canvas/浏览器插件
+    两年前端开发经验
   </p>
   <p>
     你可以在这里找到我：
@@ -11,23 +11,19 @@
     </a>
   </p>
 
-  <p>邮箱：62916233@qq.com</p>
-  <p>微信：629162344</p>
+  <p>邮箱：3360947218@qq.com</p>
+  <p>微信：s1872156</p>
 </template>
 
 <script lang="ts" setup>
 const links = [
   {
     text: "github",
-    href: "https://github.com/process1024",
-  },
-  {
-    text: "掘金",
-    href: "https://juejin.cn/user/1011206427522078",
+    href: "https://github.com/yukangyang",
   },
   {
     text: "哔哩哔哩",
-    href: "https://space.bilibili.com/28611918",
+    href: "https://space.bilibili.com/388476777",
   },
 ];
 </script>
