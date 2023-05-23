@@ -5,18 +5,18 @@ title: 首页
 
 hero:
   name: Process
-  text: 前端好好玩1234
-  tagline: 前端知识大全前端知识大全前端知识大全234
+  text: 前端好好玩
+  tagline: 前端知识大全
   image:
     src: /pure-logo.png
     alt: logo
   actions:
     - theme: brand
-      text: 点击开始变强66
+      text: 开始
       link: /frontend/javascript
     - theme: alt
       text: 访问我的GitHub
-      link: https://github.com/process1024
+      link: https://github.com/yukangyang
     - theme: alt
       text: 关于我
       link: /me/
