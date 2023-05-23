@@ -36,16 +36,12 @@ const config = {
         items: [
           {
             text: "github",
-            link: "https://github.com/process1024",
+            link: "https://github.com/yukangyang",
           },
           {
             text: "源码",
-            link: "https://github.com/process1024/article",
-          },
-          {
-            text: "掘金首页",
-            link: "https://juejin.cn/user/1011206427522078",
-          },
+            link: "https://github.com/yukangyang/yukangyang.github.io",
+          }
         ],
       },
     ],
@@ -164,7 +160,7 @@ const config = {
         },
       ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/process1024" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/yukangyang" }],
   },
   slide: {
     "/frontend/": [
