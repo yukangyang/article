@@ -1,4 +1,5 @@
-Poweredby
-<a href="https://github.com/process1024" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/26537429?v=4" style="width: 80px;height: 80px;"/>
+## Powered by
+
+<a href="https://github.com/eryajf/learn-github/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=eryajf/learn-github" />
 </a>
