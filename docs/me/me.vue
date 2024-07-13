@@ -21,10 +21,10 @@ const links = [
     text: "github",
     href: "https://github.com/yukangyang",
   },
-  {
-    text: "哔哩哔哩",
-    href: "https://space.bilibili.com/388476777",
-  },
+  // {
+  //   text: "哔哩哔哩",
+  //   href: "https://space.bilibili.com/388476777",
+  // },
 ];
 </script>
 
