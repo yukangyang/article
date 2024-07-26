@@ -1,0 +1,66 @@
+```html
+<template>
+  <div class="container">
+    <div class="container-pro" v-html="htmlPro"></div>
+    <div class="container-dev" v-html="htmlDev"></div>
+  </div>
+</template>
+```
+```js
+<script setup>
+import { ref, h, render, onMounted, defineEmits, defineProps, createApp, watch } from "vue";
+// 创建一个响应式引用，用于存储 input 的值
+const htmlDev = ref(
+  "<div>这是一段文本<ke>可替换</ke></div><div>这是第二段文本<ke>可替换</ke></div><div>这是第三段文本<ke>可替换</ke></div><div>这是第四段文本<ke>可替换</ke></div><div>这是第五段文本<ke>可替换</ke></div>"
+);
+const htmlPro = ref(
+  "<div>这是一段文本<ke>可替换</ke></div><div>这是第二段文本<ke>可替换</ke></div><div>这是第三段文本<ke>可替换</ke></div><div>这是第四段文本<ke>可替换</ke></div><div>这是第五段文本<ke>可替换</ke></div>"
+);
+
+const inputValue = ref({});
+onMounted(() => {
+  let view = document.querySelectorAll(".container-dev ke");
+  view.forEach((item, index) => {
+    const app = createApp({
+      render() {
+        return h("input", {
+          type: "text",
+          value: inputValue.value[index],
+          onInput: (event) => {
+            inputValue.value[index] = event.target.value;
+          }
+        });
+      }
+    });
+    app.mount(item);
+  });
+});
+watch(
+  inputValue,
+  (newValue, oldValue) => {
+    console.log(newValue);
+    const view = document.querySelectorAll(".container-pro ke");
+    view.forEach((item, index) => {
+      if (newValue[index] == undefined) return;
+      item.innerHTML = newValue[index];
+    });
+  },
+  { deep: true }
+);
+</script>
+```
+```css
+<style>
+.container {
+  padding: 12px 0;
+  border: 1px solid #ccc;
+}
+.container .container-pro {
+  padding: 0 12px 12px 12px;
+  border-bottom: 1px solid #ccc;
+}
+.container .container-dev {
+  padding: 12px 12px 0 12px;
+}
+</style>
+```
