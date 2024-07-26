@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as l}from"./app.a78eed1a.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/word.md","lastUpdated":1721986094000}'),p={name:"frontend/word.md"},o=l("",2),t=[o];function e(c,D,F,r,y,C){return a(),n("div",null,t)}var u=s(p,[["render",e]]);export{i as __pageData,u as default};
