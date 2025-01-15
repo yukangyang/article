@@ -80,6 +80,10 @@ const config = {
               text: "keep-alive",
               link: "/vue/keep-alive",
             },
+            {
+              text: "canvas-editor",
+              link: "/vue/canvas-editor",
+            },
           ],
         },
       ],
