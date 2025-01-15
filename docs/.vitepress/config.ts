@@ -24,10 +24,6 @@ const config = {
         ],
       },
       {
-        text: "算法",
-        link: "/algorithm/sort",
-      },
-      {
         text: "文章",
         link: "/blog/actions",
       },
